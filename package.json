@@ -26,7 +26,7 @@
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "server-store": "^1.0.2",
-    "socket.io": "^2.4.0"
+    "socket.io": "^3.0.5"
   },
   "devDependencies": {
     "eslint": "^3.11.1",
