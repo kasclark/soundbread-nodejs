@@ -2,7 +2,9 @@
 
 require('console-stamp')(console, 'HH:MM:ss.l');
 var express = require('express');
+var helmet = require('helmet');
 var app = express();
+app.use(helmet());
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var pjson = require('./package.json');
